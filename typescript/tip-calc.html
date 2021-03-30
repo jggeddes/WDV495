@@ -1,0 +1,59 @@
+<!--Reference:
+Got idea/code from this site
+https://codesandbox.io/s/tip-calculator-js-1obtq?from-embed=&file=/src/index.js
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Demonstrating TypeScript by implementing strict data types into a tip calculator application">
+    <meta name="author" content="Will Hedgecock">
+    <meta name="keywords" content="TypeScript, tip calculator, web development, DMACC, WDV495">
+
+    <title>TypeScript Tip Calculator</title>
+
+    <link rel="stylesheet" href="css/tip-calculator.css">
+</head>
+
+<body>
+
+    <div id="container">
+        <div class="container-top">
+            <h1 style="text-align:center;">Tip Calculator</h1>
+        </div>
+
+        <form id="tip-calculator">
+
+            <p>
+                <label for="total-bill">Bill before tip: </label>
+                <input type="text" id="total-bill" name="total-bill">
+            </p>
+
+            <p>
+                <label for="tip-percentage">Tip Percentage: </label>
+                <select id="tip-percentage" name="tip-percentage">
+                    <option value="0.05">5%</option>
+                    <option value="0.1">10%</option>
+                    <option value="0.15">15%</option>
+                    <option value="0.2">20%</option>
+                    <option value="0.25">25%</option>
+                </select>
+            </p>
+
+            <input type="button" id="calculate" name="calculate" value="Calculate Tip">
+
+            <p>Total Tip: <span id="tip-display"></span></p>
+
+            <p>Total Bill: <span id="total-bill-display"></span></p>
+
+        </form>
+    </div>
+
+</body>
+
+<script src="tip-calculator.js"></script>
+
+</html>

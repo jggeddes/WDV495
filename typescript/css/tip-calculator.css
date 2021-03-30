@@ -1,0 +1,47 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+#container {
+  width: 40%;
+  margin: auto;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+#container h2 {
+  text-align: center;
+  padding: 20px 0;
+  margin: 0;
+}
+
+#container form {
+  margin-top: 5px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 0 0 10px 10px;
+}
+
+#container form h3 {
+  margin-top: 5px;
+}
+
+.container-top {
+  border-radius: 10px;
+}
+
+#calculate {
+  color: white;
+  background-color: black;
+  border: 1px solid gray;
+  height: 30px;
+  width: 120px;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.75);
+}
+/*# sourceMappingURL=tip-calculator.css.map */
