@@ -1,0 +1,51 @@
+{
+  "name": "Animal Website",
+  "short_name": "Animal's",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "white",
+  "theme_color": "#009924",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "images/icons/wolf72.jpg",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "images/icons/wolf96.jpg",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "images/icons/wolf128.jpg",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "images/icons/wolf144.jpg",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "images/icons/wolf152.jpg",
+      "type": "image/png",
+      "sizes": "152x152"
+    },
+    {
+      "src": "images/icons/wolf192.jpg",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "images/icons/wolf384.jpg",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "images/icons/wolf512.jpg",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
